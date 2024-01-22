@@ -1,8 +1,11 @@
 #include "Monty.h"
+
+
+
 /**
-*FreeList - frees a list
+* FreeList - frees a list
 *
-*@stack: pointer to list
+* @stack: pointer to list
 */
 void FreeList(stack_t **stack)
 {
@@ -14,10 +17,12 @@ void FreeList(stack_t **stack)
 		free(current);
 	}
 }
+
+
 /**
-*clear - frees list and closes file
+* clear - frees list and closes file
 *
-*@stack: pointer to list
+* @stack: pointer to list
 */
 void clear(stack_t **stack)
 {

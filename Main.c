@@ -9,7 +9,7 @@ int main(int argc, char **argv)
 	size_t buffersize = 0;
 	unsigned int line_number = 1;
 	stack_t *head = NULL;
-
+	(void) global;
 	if (argc != 2)
 	{
 		fprintf(stderr, "USAGE: monty file\n");
