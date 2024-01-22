@@ -1,0 +1,6 @@
+Tests.c
+*.out
+.vscode
+bytecode
+peda*
+monty
