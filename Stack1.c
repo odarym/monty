@@ -1,4 +1,4 @@
-#include "Monty.h"
+#include "monty.h"
 /**
 *mod - gets modulus of top two element
 *

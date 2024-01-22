@@ -1,4 +1,4 @@
-#include "Monty.h"
+#include "monty.h"
 
 /**
  * IsDigit - Checks for a digit 0 through 9
